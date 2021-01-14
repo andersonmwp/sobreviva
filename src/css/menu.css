@@ -1,0 +1,24 @@
+.background {
+    background: #3F4141!important;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family: var(--fonte-titulo);
+    color: #950606!important;
+
+    padding-left: 50px;
+}
+
+.nav-bg {
+    color: #FFF!important;
+
+    letter-spacing: 3px!important;
+    text-transform: uppercase!important;
+
+    transition: color 200ms linear;
+}
+
+.nav-bg:hover {
+    color: #950606!important;
+}

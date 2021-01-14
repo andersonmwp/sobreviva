@@ -1,6 +1,6 @@
 :root {
-    --fonte-titulo: font-family: 'Creepster', cursive;
-    --fonte-secundaria: font-family: 'Roboto', sans-serif;
+    --fonte-titulo: 'Creepster', cursive;
+    --fonte-secundaria: 'Roboto', sans-serif;
 
     --cor-botao: #B03434;
     --cor-botao-hover: #A34242;
