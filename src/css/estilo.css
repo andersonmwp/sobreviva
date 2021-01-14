@@ -1,0 +1,45 @@
+:root {
+    --fonte-titulo: font-family: 'Creepster', cursive;
+    --fonte-secundaria: font-family: 'Roboto', sans-serif;
+
+    --cor-botao: #B03434;
+    --cor-botao-hover: #A34242;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--fonte-secundaria);
+    background-color: #F4F4F4;
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.botao {
+    background-color: var(--cor-botao);
+    border: 1px solid var(--cor-botao);
+    border-radius: 50px;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 24px;
+    cursor: pointer;
+
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 300px;
+    
+    transition: background .3s linear;
+}
+
+.botao:hover {
+    background-color: var(--cor-botao-hover);
+    border-color: var(--cor-botao-hover);
+    text-decoration: none;
+}
