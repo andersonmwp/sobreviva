@@ -12,6 +12,10 @@ body {
     background-color: #F4F4F4;
 }
 
+main {
+    padding-top: 65px;
+}
+
 .container {
     padding-left: 6%;
     padding-right: 6%;
