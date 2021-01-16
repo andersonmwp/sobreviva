@@ -46,4 +46,6 @@ main {
     background-color: var(--cor-botao-hover);
     border-color: var(--cor-botao-hover);
     text-decoration: none;
+
+    color: #FFF;
 }
