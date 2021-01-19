@@ -49,3 +49,7 @@ main {
 
     color: #FFF;
 }
+
+.botao:active {
+    transform: scale(0.95);
+}
